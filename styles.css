@@ -1,0 +1,682 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+main {
+    background-color: rgb(23, 21, 21);
+    display: flex;
+    gap: 200px;
+    padding-inline: 10vh;
+    padding-block: 30px;
+    /* justify-content: space-evenly; */
+
+
+    ul {
+        display: flex;
+        gap: 150px;
+        /* align-items: center; */
+        color: white;
+        list-style: none;
+        cursor: pointer;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        li {
+            transition: all 0.3s;
+        }
+    }
+
+    li:hover {
+        color: rgb(83, 82, 82);
+    }
+}
+
+/* nav>ul{
+    position: relative;
+    display: flex;
+    padding-bottom: 20px;
+    color: white;
+    gap: 200px;
+    cursor: pointer;
+    align-items: center;
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+        }
+    /* } */
+
+.image {
+    background-image: url(./kickoffPC.webp);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-block: 5vh;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    padding-inline: 10vh;
+    padding-block: 5vh;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 4 / 5;
+    background-image: url(./1360-500.webp);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+
+    h1 {
+        color: white;
+        gap: 15px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+
+.div2 {
+    grid-area: 4 / 1 / 6 / 3;
+    background-image: url(./power.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+    h1 {
+        color: white;
+        gap: 15px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+
+.div3 {
+    grid-area: 4 / 3 / 6 / 5;
+    background-image: url(./smart\ office.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+    h1 {
+        color: white;
+        gap: 15px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+
+.demo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div4 {
+    grid-area: 6 / 1 / 8 / 3;
+    background-image: url(./personal\ care.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+    h1 {
+        color: white;
+        gap: 15px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+
+.div5 {
+    grid-area: 6 / 3 / 8 / 5;
+    background-image: url(./home\ appliances.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+    h1 {
+        color: white;
+        gap: 15px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+
+.para {
+    text-align: center;
+}
+
+article {
+    display: flex;
+
+    div {
+        width: 40vw;
+        height: 50vh;
+    }
+}
+
+.parent1 {
+    background-image: url(./500QN.webp);
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 300px;
+    border: 2px solid;
+}
+
+.parent2 {
+    background-image: url(./OTW-330S-black.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.parent3 {
+    background-image: url(./ohp-610-black.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.parent4 {
+    background-image: url(./801.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.demo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.parents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    ;
+}
+
+.new {
+    background-image: url(./new-arrival-l.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.arriva {
+    text-align: center;
+
+}
+
+.rent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.rent1 {
+    grid-area: 1 / 1 / 3 / 2;
+    background-image: url(./1.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+
+    p {
+        text-align: center;
+        justify-content: end;
+        align-items: end;
+    }
+}
+
+.rent2 {
+    grid-area: 1 / 2 / 3 / 3;
+    background-image: url(./2.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.rent3 {
+    grid-area: 1 / 3 / 3 / 4;
+    background-image: url(./3.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.rent4 {
+    grid-area: 1 / 4 / 3 / 5;
+    background-image: url(./4.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.rent5 {
+    grid-area: 3 / 1 / 5 / 2;
+    background-image: url(./5.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.rent6 {
+    grid-area: 3 / 2 / 5 / 3;
+    background-image: url(./6.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.rent7 {
+    grid-area: 3 / 3 / 5 / 4;
+    background-image: url(./7.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.rent8 {
+    grid-area: 3 / 4 / 5 / 5;
+    background-image: url(./8.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.head {
+
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+figcaption>div {
+    background-image: url(./ads.webp);
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+}
+
+.head {
+    text-align: center;
+    padding-block: 50px;
+}
+
+.jamess {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 22px;
+    grid-row-gap: 24px;
+    height: 130vh;
+    padding-inline: 10vh;
+
+
+}
+
+.jamess>div {
+    border-radius: 30px;
+}
+
+.jam1 {
+    grid-area: 1 / 1 / 5 / 2;
+    background-image: url(./cs-women-l.webp);
+    background-position: center;
+    background-size: cover;
+
+    h2 {
+        color: black;
+        gap: 15px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+}
+
+.jam2 {
+    grid-area: 5 / 1 / 7 / 2;
+    background-image: url(./cart-care-l.webp);
+    background-position: center;
+    background-size: cover;
+
+    h2 {
+        color: black;
+        gap: 15px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+}
+
+.jam3 {
+    grid-area: 1 / 2 / 3 / 3;
+    background-image: url(./1-year-warranty-l.webp);
+    background-position: center;
+    background-size: cover;
+
+    h2 {
+        color: black;
+        gap: 15px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+}
+
+.jam4 {
+    grid-area: 3 / 3 / 7 / 4;
+    background-image: url(./text.webp);
+    background-position: center;
+    background-size: cover;
+
+    h2 {
+        color: black;
+        gap: 15px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+}
+
+.jam5 {
+    grid-area: 3 / 2 / 5 / 3;
+    background-image: url(./free-shipping-l.webp);
+    background-position: center;
+    background-size: cover;
+
+    h2 {
+        color: black;
+        gap: 15px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+}
+
+.jam6 {
+    grid-area: 5 / 2 / 7 / 3;
+    background-image: url(./points.webp);
+    background-position: center;
+    background-size: cover;
+
+    h2 {
+        color: black;
+        gap: 15px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+}
+
+.jam7 {
+    grid-area: 1 / 3 / 3 / 4;
+    background-image: url(./authenticity-&-best-price-l.webp);
+    background-position: center;
+    background-size: cover;
+
+    h2 {
+        color: black;
+        gap: 15px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+}
+
+/* 
+.james {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.jam1 {
+    grid-area: 1 / 1 / 3 / 2;
+    background-image: url(./cs-women-l.webp);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    border-radius: 50px;
+    padding: 10px;
+
+
+    h4 {
+        color: black;
+        gap: 15px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+}
+
+.jam2 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-image: url(./1-year-warranty-l.webp);
+    background-position: center;
+    background-size: cover;
+
+    h4 {
+        color: black;
+        gap: 15px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+
+.jam3 {
+    grid-area: 2 / 2 / 3 / 3;
+    background-image: url(./free-shipping-l.webp);
+    background-position: center;
+    background-image: cover;
+
+    h4 {
+        gap: 15px;
+        text-align: center;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+
+.jam4 {
+    grid-area: 1 / 3 / 2 / 4;
+    background-image: url(./authenticity-&-best-price-l.webp);
+    background-image: center;
+    background-position: cover;
+
+    h4 {
+        text-align: center;
+        align-items: center;
+        gap: 15px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+
+.jam5 {
+    grid-area: 2 / 3 / 4 / 4;
+    background-image: url(./o-club-ng-l.webp);
+    background-position: center;
+    background-size: cover;
+
+    h4 {
+        text-align: center;
+        align-items: center;
+        gap: 15px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+
+.jam6 {
+    grid-area: 3 / 2 / 4 / 3;
+    background-image: url(./points.webp);
+    background-position: center;
+    background-size: cover;
+
+    h4 {
+        text-align: center;
+        align-items: center;
+        gap: 15px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+
+.jam7 {
+    grid-area: 3 / 1 / 4 / 2;
+    background-image: url(./cart-care-l.webp);
+    background-position: center;
+    background-image: cover;
+
+
+    h4 {
+        text-align: center;
+        align-items: center;
+        gap: 15px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+} */
+
+
+.sec {
+    background-color: white;
+    display: grid;
+}
+
+.father {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+}
+
+.far1 {
+    background-image: url(./Post-8-oraimo.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+
+}
+
+.far2 {
+    background-image: url(./Layer\ 73.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.far3 {
+    background-image: url(./watch.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.far4 {
+    background-image: url(./Post-4-oraimo.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.in {
+    text-align: center;
+}
+
+.out {
+    text-align: center;
+    font-size: 15px;
+}
+
+.hp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.emailinput {
+    width: 70%;
+    height: 100%;
+    padding: 15px 20px;
+    outline: none;
+    border: 2px solid grey;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.bell {
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    height: 100%;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.socials {
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+
+    .soc {
+        width: fit-content;
+    }
+
+    .followus {
+        width: fit-content;
+    }
+
+    img {
+        cursor: pointer;
+    }
+}
